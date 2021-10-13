@@ -254,6 +254,24 @@ i {
   background-color: $darkBlue;
 }
 
+
+/*thank-you page*/
+.thank-you {
+  background-color: $darkBlue;
+  align-items: center;
+  text-align: center;
+  margin: 250px 10px;
+  padding: 10px;
+  font-family: $accent;
+  border-radius: 5px;
+  h1 {
+    font-size: 3em;
+  }
+  h2 {
+    font-size: 2.5em;
+  }
+}
+
 @media only screen and (min-width: 768px) { 
   .center-content {
     h3 {
@@ -327,86 +345,3 @@ i {
   
 
 }/* large screen */
-
-/*
-
-@media only screen and (min-width: 768px) {
-  .about-info {
-    padding: 20px !important;
-    background-color: #e8edf59b;
-  }
-  .about {
-    margin: 10px;
-    h2 {
-      font-size: 2.5em;
-    }
-    p {
-      font-size: 1.25em;
-    }
-  }
-  .main-row {
-    display: flex;
-  }
-
-  
-  .amenities {
-   padding: 1px 15px;
-
-    h5 {
-      margin-top: 0;
-      font-size: 1em;
-    }
-
-    li {
-      padding: 0px;
-      list-style: none;
-      font-size: 15px;
-    }
-    
-  }
-}
-
-@media only screen and (min-width: 900px) {
-  .center-content {
-    h1 {
-      font-size: 4.5em;
-    }
-    h3 {
-      font-size: 2em;
-      font-family: $accentFont;
-    }
-  }
-  .button {
-    font-size: 1.5em;
-  }
-  .about {
-    h2 {
-      font-size: 3em;
-    }
-    p {
-      font-size: 1.75em;
-    }
-  }
-
-  .about-info {
-    padding: 20px !important;
-    background-color: #e8edf59b;
-  }
-  .carousel {
-    height: 400px !important;
-  }
-.visability {
-  display: flex;
-}
-  .amenities {
-    padding: 40px 25px 48px;
-    h5 {
-      font-size: 1.75em;
-    }
-
-    li {
-      font-size: 1.25em;
-    }
-  }
-}
-*/
