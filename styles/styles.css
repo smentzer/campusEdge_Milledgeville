@@ -352,6 +352,10 @@ body {
   .main a, .about a {
     color: #1c4f9c;
   }
+  
+    .carousel {
+    height: 360px !important;
+  }
 }
 
 /* large screen */
